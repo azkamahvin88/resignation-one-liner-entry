@@ -2,13 +2,12 @@
 """The Funniest One-Line Resignation Letter — make.fun entry.
 
 Writes exactly one line (no trailing newline) to /output/entry.txt:
-the one-line resignation letter of a tech-support agent who quits
-mid-call and hands the job to the customer.
+the one-line resignation letter of a cron job that ran at 3 AM.
 """
 
 import os
 
-LINE = "My resignation, in one line: have you tried turning it off and on again? That was my job, and now it's yours."
+LINE = "I resign. I ran at 3 AM so you could sleep, and you thanked the dashboard. Goodbye."
 
 
 def main() -> None:
